@@ -1,7 +1,7 @@
 # ⚡ Echo — Full-Stack MERN E-Commerce Platform
 ### Premium Tech Gadgets with Loyalty Rewards System
 
-**By:** Khalid Jamil (Roll No: 230613000417)    
+**By:** Khalid Jamil 
 **Stack:** MongoDB · Express.js · React.js · Node.js
 
 ---
@@ -80,21 +80,6 @@ cp .env.example .env        # Mac/Linux
 copy .env.example .env      # Windows
 ```
 
-**Fill in your `.env`:**
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://user:pass@cluster0.xxxxx.mongodb.net/echo_db
-JWT_SECRET=echo_my_secret_key_change_this
-JWT_EXPIRE=30d
-RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxx
-RAZORPAY_KEY_SECRET=xxxxxxxxxxxxxxxxxx
-NODE_ENV=development
-FRONTEND_URL=http://localhost:5173
-EMAIL_USER=yourgmail@gmail.com
-EMAIL_PASS=xxxx xxxx xxxx xxxx
-EMAIL_FROM=Echo Store <yourgmail@gmail.com>
-```
-
 ```bash
 npm run seed    # Adds 9 products + admin user to MongoDB
 npm run dev     # Start server → http://localhost:5000
@@ -119,12 +104,6 @@ VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxx
 ```bash
 npm run dev    # Start frontend → http://localhost:5173
 ```
-
----
-
-### 🔑 Default Admin Account
-- **Email:** admin@echo.com
-- **Password:** admin123
 
 ---
 
