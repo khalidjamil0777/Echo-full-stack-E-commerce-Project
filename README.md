@@ -1,7 +1,7 @@
 # ⚡ Echo — Full-Stack MERN E-Commerce Platform
 ### Premium Tech Gadgets with Loyalty Rewards System
 
-**By:** Khalid Jamil (Roll No: 230613000417)    
+**By:** Khalid Jamil 
 **Stack:** MongoDB · Express.js · React.js · Node.js
 
 ---
@@ -119,12 +119,6 @@ VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxx
 ```bash
 npm run dev    # Start frontend → http://localhost:5173
 ```
-
----
-
-### 🔑 Default Admin Account
-- **Email:** admin@echo.com
-- **Password:** admin123
 
 ---
 
